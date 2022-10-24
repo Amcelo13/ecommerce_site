@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!--Font Awesome-->    <script src="https://kit.fontawesome.com/ea595b9e85.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="header">
+
+        <!--LOGO Pic on the left corner-->
+        <a href="index.html"><img src="imgca/logo.png" class="logo" alt="" width="100px"></a>
+ 
+        <div>    <!--Navbar Items-->
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a id="lg-bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>   <!--Cart-->
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <li><a href="search.html" class="active" ><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+            </ul>
+        </div>
+
+        <div id="mobile">                      <!-------------Adding Hamburger Button---------------->
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i  id="bar" class="fa-solid fa-bars"></i>
+        </div> 
+    </section>
+
+    <section class="search-container" style="margin-top: 100px;">  
+        <h2>Search Your Favourite Products</h2>
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i> 
+           <input type="text" name="" id="search-item" placeholder="Search Products" onkeyup="search()">
+        </form>
+    </section>
+
+    <section id="product1" class="section-p1">
+
+     <div class="parent-container" id="parent-container">
+
+      <div class="pro" onclick="window.location.href = 'singleProd.html';">
+         <img src="imgca/features/f1.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Kenzo</span>    <!--Company Name-->
+           <h5><b>France Japan Reversible Bomber Jacket</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+             </div>
+             <h4>₹5499</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping "></i></a>
+         
+      </div>
+      <div class="pro" onclick="window.location.href = 'singleProd1.html';">
+         <img src="imgca/features/f2.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Adidas</span>    <!--Company Name-->
+           <h5><b>Yeezy Boost 350 V2 "Hyper Space</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+             <h4>₹5999</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f3.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Palm Angels</span>    <!--Company Name-->
+           <h5><b>x VANS Old Skool VLT sneakers</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+             </div>
+             <h4>₹2899</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f4.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Ksubi</span>    <!--Company Name-->
+           <h5><b>Mash Up Resort shirt</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+             <h4>₹2199</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f5.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Adidas</span>    <!-6-Company Name-->
+           <h5><b>Yeezy Boost 700 V3 "Azael</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+             <h4>₹7499</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f6.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>MC2 Saint Barth</span>    <!--Company Name-->
+           <h5><b>Diabolik Turtleneck Jumper</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             </div>
+             <h4>₹2499</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f7.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Kenzo</span>    <!--Company Name-->
+           <h5><b>Embroidered Belt Bag</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+             </div>
+             <h4>₹1399</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+      <div class="pro">
+         <img src="imgca/features/f8.jpg" alt="" width="180px">
+
+         <div class="description">                                     <!--Product Description-->
+           <span>Carhartt WIP</span>    <!--Company Name-->
+           <h5><b>Cargo Pants</b> </h5>      <!--Product Name-->
+             <div class="star">
+              <i class="fas fa-star"></i>              <!--Star Rating-->
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+             </div>
+             <h4>₹1999</h4>
+         </div>
+         <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+         
+      </div>
+  
+       <div class="parent-container">
+  
+        <div class="pro">
+           <img src="imgca/features/n1.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Song For The Mute</span>    <!--Company Name-->
+             <h5><b>colour-block short-sleeve shirt</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+               <h4>₹1399</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping "></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n2.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Wood Wood</span>    <!--Company Name-->
+             <h5><b>Johan striped short-sleeve T-shirt
+
+
+            </b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               </div>
+               <h4>₹1299</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n3.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Casablanca</span>    <!--Company Name-->
+             <h5><b>Rainbow-intarsia crew-neck jumper</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+               <h4>₹1999</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n4.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Alexander McQueen</span>    <!--Company Name-->
+             <h5><b>Oversized sole Sneakers</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               </div>
+               <h4>₹2199</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n5.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>AMIRI</span>    <!-6-Company Name-->
+             <h5><b>Panelled low-top sneakers</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               </div>
+               <h4>₹2799</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n6.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Off-White</span>    <!--Company Name-->
+             <h5><b>Mona Lisa print sweatshirt</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               </div>
+               <h4>₹1799</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n7.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Palm Angels</span>    <!--Company Name-->
+             <h5><b>Teddy Bear logo-print T-shirt</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+               <h4>₹1199</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+        <div class="pro">
+           <img src="imgca/features/n8.jpg" alt="" width="180px">
+  
+           <div class="description">                                     <!--Product Description-->
+             <span>Casablanca</span>    <!--Company Name-->
+             <h5><b>Logo-embroidered cotton cap</b> </h5>      <!--Product Name-->
+               <div class="star">
+                <i class="fas fa-star"></i>              <!--Star Rating-->
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+               </div>
+               <h4>₹999</h4>
+           </div>
+           <a href="#" id="addtocart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+           
+        </div>
+  
+       </div>
+  
+      </section>
+    
+    <section id="page-indicator" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-chevron-right"></i>  </a>
+    </section>  
+
+    <section id="newsletter" class="section-p1 section-m1">
+
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>JOIN AND STAY UP TO DATE WITH NEWS, special gifts</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your Email Address..">
+        <button class="normal">Sign Up</button>
+      </div>
+
+    </section>
+
+    <footer class="section-p1">
+
+      <div class="col">
+      <a href="index.html"> <img src="imgca/logo.png" alt=""></a> 
+        <h4>Contact</h4>
+        <p><strong>Address</strong>:2588 Nanaimo St Vancouver, BC V5N 5X1</p>
+        <p><strong>Phone</strong>:+01 2222 654 /(+91) 2345 8765</p>
+        <p style="padding-bottom: 20px;"><strong>Hours</strong>:9:30 - 18:00,Mon - Sat</p>
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <i class="fa-brands fa-youtube yt"></i>
+            </div>
+          </div>
+      </div>
+
+      <div class="col">
+         <h4>About</h4>
+         <a href="#">About Us</a>
+         <a href="#">Privacy Policy</a>
+         <a href="#">Terms and Condition</a>
+         <a href="#">Contact Us</a>
+      </div>
+    
+      <div class="col">
+         <h4>My Account</h4>
+         <a href="#">Sign In</a>
+         <a href="#">View Cart</a>
+         <a href="#">My Wishlist</a>
+         <a href="#">Track My Order</a>
+         <a href="#">Help</a>
+      </div>
+         
+
+      <div class="col install">
+        <h4>Install Our App</h4>
+        <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;color:darkgray">From App Store or Google Play</p>
+          <div class="row">    <!--Showing app store banners in a row-->
+            <img src="app.jpg" alt="">
+            <img src="play.jpg" alt="">
+          </div>
+        <p>Secure Payment Gateways</p>
+        <img src="pay.png" alt="">
+     </div>
+      
+     </div>
+
+    </footer>
+    <div class="copyright" ">
+      <p style="font-size: 12px; text-align:center;margin-top:-20px;">
+        &#169; 2022,Chetelise etc HTML CSS Project</p>
+     </div>
+    <script src="search.js"></script>
+
+</body>
+</html>

@@ -81,20 +81,21 @@
         <div id="coupon">
           <h3>Apply Coupon</h3>
           <div>
-            <input type="text" placeholder="Enter a code">
-            <button class="normal" id="form-button" style="padding: 12px 20px" >Apply</button>
+            <input type="text" placeholder="Enter a code" id="coupon1">
+            <button class="normal" id="form-button" style="padding: 12px 20px" onclick="abc()">Apply</button>
           </div>
         </div>
 
         <div id="subtotal">
           <h3>Cart Total</h3>
-          <table>
+          
+          <table id="discount">
             <tr>
               <td>Cart Subtotal</td>
               <td id="CartTotal">₹11498</td>
             </tr>
             <tr>
-              <td>Shipping</td>
+              <td >Shipping</td>
               <td>Free</td>
             </tr>
             <tr>
@@ -102,6 +103,7 @@
               <td id="Total"><strong>₹11498</strong></td>
             </tr>
           </table>
+
           <button class="normal" style="padding: 12px 20px;background-color:#f7ab0f">Proceed to Checkout</button>
         </div>
 
@@ -163,7 +165,9 @@
       <p style="font-size: 12px; text-align:center;margin-top:-20px;">
         &#169; 2022,Chetelise etc HTML CSS Project</p>
      </div>
+
     <script src="app2.js"></script>
+
 
 </body>
 </html>

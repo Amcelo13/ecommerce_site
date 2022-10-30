@@ -33,10 +33,10 @@ document.getElementById('Total').innerHTML = '₹'+ CartTotal;
         var cell2 = row.insertCell(1);
 
         cell1.innerHTML = "Coupon Discount";
-        cell2.innerHTML = '₹'+ 0.1*CartTotal;
+        cell2.innerHTML = '₹'+ Math.floor(0.1*CartTotal);
 
         // document.getElementById('CartTotal').innerHTML = (CartTotal);
-        document.getElementById('Total').innerHTML ='₹'+ (CartTotal);
+        document.getElementById('Total').innerHTML ='₹'+ Math.floor(CartTotal);
         
     }
 }

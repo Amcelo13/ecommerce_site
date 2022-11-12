@@ -40,7 +40,7 @@
     </section> 
      
      <section id="cart" class="section-p1">
-          <table width="100%">
+          <table width="100%" id="remrow">
                 <thead>
                   <tr>
                     <td>Remove</td>
@@ -53,8 +53,8 @@
                 </thead>
                
                 <tbody >
-                     <tr>
-                      <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                     <tr >
+                      <td><a onclick="document.getElementById('remrow').deleteRow(1)" href="#"><i class="fa-solid fa-xmark"></i></a></td>
                       <td><img src="imgca/features/f1.jpg" alt="" onclick="window.location.href = 'singleProd.html';"></td>
                       <td onclick="window.location.href = 'singleProd.html';" >France Japan reversible bomber jacket</td>
                       <td>₹5499</td>
@@ -63,7 +63,7 @@
                      </tr>
 
                      <tr>
-                      <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                      <td><a onclick="document.getElementById('remrow').deleteRow(2)" href="#"><i class="fa-solid fa-xmark"></i></a></td>
                       <td><img src="imgca/features/f2.jpg" alt="" onclick="window.location.href = 'singleProd1.html';"></td>
                       <td onclick="window.location.href = 'singleProd1.html';"> Yeezy Boost 350 V2 "Hyper Space</td>
                       <td>₹5999</td>

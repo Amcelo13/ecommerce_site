@@ -17,5 +17,7 @@ CSS
 Bootstrap
 Javascript
 
-**Repo Link - https://amcelo13.github.io/ecommerce_site/**
+**Deployed Link - https://amcelo13.github.io/ecommerce_site/**
+
+
 Made with ❤️ by Chetan Thakur

@@ -1,5 +1,5 @@
 # eCommerce_site
-This is the dynamic eCommerce website created solely using HTML,CSS and JavaScript.
+This is a dynamic eCommerce website created solely using HTML,CSS and JavaScript.
 
 Section-
 HOME
